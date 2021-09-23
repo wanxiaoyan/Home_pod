@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Home (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Home (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  Home:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Home: 6086ab95938ed16189f8d5f67b6b833ca10cbe10
+
+PODFILE CHECKSUM: 264c56229809c2bcbcd3a74a6cfe23e64f4687fc
+
+COCOAPODS: 1.5.3
